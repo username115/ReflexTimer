@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Reflex Timer</string>
+
+    <string name="start_text">Press Button to start</string>
+    <string name="too_soon_text">Too Soon!</string>
+    <string name="stop_button">Stop</string>
+    <string name="start_button">Start</string>
+    <string name="action_settings">Settings</string>
+</resources>
