@@ -1,0 +1,5 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_title_resolution">Resolution (ms)</string>
+    <string name="pref_default_resolution">50</string>
+</resources>
