@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     private Button mainButton;
     private TextView mainText;
 
-    private enum State { idle, wait, counting, finished };
+    private enum State { idle, wait, counting, finished }
 
     private State currentState;
 
@@ -164,8 +164,6 @@ public class MainActivity extends Activity {
     private int randInt(int min, int max) {
         // nextInt is normally exclusive of the top value,
         // so add 1 to make it inclusive
-        int randomNum = rand.nextInt((max - min) + 1) + min;
-
-        return randomNum;
+        return rand.nextInt((max - min) + 1) + min;
     }
 }
